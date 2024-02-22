@@ -23,9 +23,58 @@
     </header>
     <form>
       <fieldset>
-        <legend></legend>
-      </fieldset>
+        <legend> Informações do Evento </legend>
+
+        <div class="input-wrapper">
+          <label for="event-title"> Título do evento <span> (minimo 8 caracteres) </span></label>
+          <input type="text" id="event-title" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="event-link"> Link do evento <span> (comece com https://) </span></label>
+          <input type="text" id="event-link" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="event-contato"> Whatsapp para contato <span> (somente números) </span></label>
+          <input type="text" id="event-contato" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="event-link"> Informações extras <span></span></label>
+          <input type="text" id="event-link" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="event-categorias"> Categorias <span></span></label>
+          <input type="text" id="event-categoria" />
+        </div>
+
+        <legend> Privacidade </legend>
+
+        <div class="input-wrapper">
+          <label for="event-administrador"> E-mail do administrador <span> (digite um email válido) </span></label>
+          <input type="text" id="event-administrador" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="event-participantes"> Senha de acesso para os participantes <span> (mínimo 8 caracteres) </span></label>
+          <input type="text" id="event-participantes" />
+        </div>
+
+        <input type="checkbox" id="evento" name="evento" value="privado">
+        <label for="evento"> Evento privado </label><br>
+
+
+        <legend> Dia e hora </legend>
+
+        </fieldset>
+
+        <button type="button"> Salvar evento </button> 
     </form>
+
+
+
   </div>
 </body>
 </html>
